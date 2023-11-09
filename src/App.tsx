@@ -2,10 +2,10 @@ import { NavLink } from './components/NavLink'
 import { Header } from './components/Header'
 import './styles/global.css'
 
-import InstagramSVG from './assets/instagram.svg'
-import FacebookSVG from './assets/facebook.svg'
-import LinkedInSVG from './assets/linkedIn.svg'
-import GitHubSVG from './assets/gitHub.svg'
+import InstagramSVG from './assets/icons/instagram.svg'
+import FacebookSVG from './assets/icons/facebook.svg'
+import LinkedInSVG from './assets/icons/linkedIn.svg'
+import GitHubSVG from './assets/icons/gitHub.svg'
 import { IconButton } from './components/IconButton'
 
 function App() {
