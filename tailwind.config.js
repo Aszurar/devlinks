@@ -8,12 +8,6 @@ export default {
       borderWidth: {
         0.375: '1.5px',
       },
-      transitionProperty: {
-        0.1: '0.4s',
-      },
-      transitionDuration: {
-        0.1: '0.4s',
-      },
 
       colors: {
         highlight: 'rgba(255, 255, 255, 0.2)',
@@ -28,8 +22,12 @@ export default {
   plugins: [
     plugin(({ addUtilities }) => {
       addUtilities({
+        '.transition-200ms': {
+          transition: 'all 0.2s ease',
+        },
+
         '.background-full': {
-          'background-image': "url('./src/assets/background.png')",
+          'background-image': "url('./src/assets/imgs/background.png')",
           'background-repeat': 'no-repeat',
           'background-position': 'top center',
           'background-size': 'cover',

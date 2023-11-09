@@ -15,7 +15,7 @@ export function Header() {
           <a
             href="https://pt-br.react.dev/"
             target="_blank"
-            className="text-sky-400 hover:text-sky-300 hover:cursor-pointer transition-0.1 font-bold"
+            className="text-sky-400 hover:text-sky-300 hover:cursor-pointer transition-200ms font-bold"
             rel="noreferrer"
           >
             React
@@ -24,7 +24,7 @@ export function Header() {
           <a
             href="https://reactnative.dev/"
             target="_blank"
-            className="text-blue-400 hover:text-blue-300 hover:cursor-pointer transition-0.1 font-bold"
+            className="text-blue-400 hover:text-blue-300 hover:cursor-pointer transition-200ms font-bold"
             rel="noreferrer"
           >
             React Native
@@ -33,7 +33,7 @@ export function Header() {
           <a
             href="https://www.typescriptlang.org/pt/"
             target="_blank"
-            className="bg-blue-500 p-0.5 text-white hover:bg-blue-00  transition-0.1 rounded-sm hover:cursor-pointer font-bold"
+            className="bg-blue-600 p-0.5 text-white hover:bg-blue-500  transition-200ms rounded-sm hover:cursor-pointer font-bold"
             rel="noreferrer"
           >
             TypeScript
