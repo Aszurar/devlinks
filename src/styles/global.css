@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {   
+  :focus-visible {
+      @apply ring-4 dark:ring-purple-300 ring-purple-200 outline-none
+    }
+    
+  ::selection {
+      @apply text-white bg-purple-400
+  }
+
+  html {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      
+      @media (max-width: 640px) {
+          font-size: 87.5%;
+      }
+
+  }
+
+::-webkit-scrollbar {
+      width: 0.375rem;
+      height: 0.375rem;
+    }
+
+::-webkit-scrollbar-track {
+      @apply bg-transparent bg-black
+    }
+ 
+::-webkit-scrollbar-thumb {
+      @apply bg-purple-400 rounded-lg 
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+      @apply bg-purple-500
+  }
+
+
+
+}
