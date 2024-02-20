@@ -1,58 +1,85 @@
-import { NavLink } from './components/NavLink'
-import { Header } from './components/Header'
 import './styles/global.css'
 
-import InstagramSVG from './assets/icons/instagram.svg'
-import FacebookSVG from './assets/icons/facebook.svg'
-import LinkedInSVG from './assets/icons/linkedIn.svg'
-import GitHubSVG from './assets/icons/gitHub.svg'
-import { IconButton } from './components/IconButton'
+import { NavLink } from './components/NavLink'
+import { Header } from './components/Header'
+import { ThemeProvider } from './context/theme'
 
 function App() {
   return (
-    <div className="bg-surface-strong min-h-screen background-full flex flex-col items-center py-14">
-      <div className="max-w-md flex flex-col items-center w-full text-white p-6 gap-6">
-        <Header />
+    <ThemeProvider>
+      <div
+        className={` bg-surface-strong flex 
+          min-h-screen flex-col items-center 
+          justify-center py-0 antialiased background-mb-light-full 
+          dark:background-mb-dark-full 
+          sm:justify-start sm:py-14 sm:background-light-full 
+          sm:dark:background-dark-full`}
+      >
+        <div
+          className="flex w-full max-w-md flex-col items-center gap-6 p-6 
+          text-white"
+        >
+          <Header />
 
-        <main className="flex flex-col gap-4 flex-1 w-full">
-          <section className="flex flex-col flex-1 gap-4  ">
-            <NavLink>Ignite Timer</NavLink>
-            <NavLink>Todo dark</NavLink>
-            <NavLink>Notion Settings com Tailwind</NavLink>
-            <NavLink>Veja + em meu portfolio</NavLink>
-          </section>
-        </main>
+          <main className="flex w-full flex-1 flex-col items-center gap-1 ">
+            <h2 className="text-lg text-black dark:text-white">
+              Projetos desenvolvidos
+            </h2>
+            <div className="flex w-full flex-1 gap-4">
+              <section className="flex flex-1 flex-col items-center gap-4 ">
+                <span className="text-zinc-700 dark:text-zinc-100">Mobile</span>
+                <NavLink href="https://caule.app/">Caule</NavLink>
+                <NavLink href="https://play.google.com/store/apps/details?id=com.usinalins.appcolaborador&hl=en">
+                  Lins Agro
+                </NavLink>
+                <NavLink href="https://play.google.com/store/apps/details?id=com.usinagoianesia.boletimmobile&hl=en">
+                  Usina Goianésia
+                </NavLink>
+                <NavLink
+                  target="_blank"
+                  href="https://play.google.com/store/apps/details?id=com.buscadordizerodireito.app&hl=pt_BR&gl=US"
+                >
+                  Dizer o direito
+                </NavLink>
+                <NavLink href="https://play.google.com/store/apps/details?id=com.nanoincub.comidanahora&hl=pt_BR&gl=US">
+                  Comida na hora
+                </NavLink>
+                <NavLink href="https://play.google.com/store/apps/details?id=com.icodsmobile&hl=en_US&gl=US">
+                  Icods
+                </NavLink>
+              </section>
+              <section className="flex flex-1 flex-col items-center gap-4">
+                <span className="text-zinc-700 dark:text-zinc-100">web</span>
+                <NavLink href="https://dtmoney-aszurar.netlify.app">
+                  dtmoney
+                </NavLink>
 
-        <footer className="text-sm w-full flex flex-col items-center gap-4 justify-center">
-          <nav className="flex gap-4 py-4">
-            <IconButton
-              icon={FacebookSVG}
-              label="Acessar Facebook"
-              link="https://www.facebook.com/lucas.delima.549436"
-            />
-            <IconButton
-              icon={InstagramSVG}
-              link="https://www.instagram.com/lucazura/"
-              label="Acessar Instagram"
-            />
-            <IconButton
-              icon={LinkedInSVG}
-              label="Acessar LinkedIn"
-              link="https://www.linkedin.com/in/lucas-de-lima-azsura/"
-            />
-            <IconButton
-              icon={GitHubSVG}
-              label="Acessar GitHub"
-              link="https://github.com/Aszurar"
-            />
-          </nav>
+                <NavLink href="https://ignite-timer-aszurar.netlify.app">
+                  Ignite Timer
+                </NavLink>
+                <NavLink href="https://tailwindcss-app.vercel.app">
+                  Tailwindcss App
+                </NavLink>
+                <NavLink href="https://todo-aszurar.netlify.app">to.do</NavLink>
+                <NavLink href="#">devlinks</NavLink>
+                <NavLink href="https://github.com/Aszurar/WatchMe">
+                  WatchMe
+                </NavLink>
+              </section>
+            </div>
+          </main>
 
-          <p>
-            Feito com ♥ por <span className="underline">Lucas de Lima</span>
-          </p>
-        </footer>
+          <footer className="flex w-full flex-col items-center justify-center gap-4 text-sm">
+            <p className="text-zinc-700 dark:text-zinc-200">
+              Feito com ♥ por{' '}
+              <span className="text-black underline dark:text-white">
+                Lucas de Lima
+              </span>
+            </p>
+          </footer>
+        </div>
       </div>
-    </div>
+    </ThemeProvider>
   )
 }
 
