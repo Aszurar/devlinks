@@ -1,16 +1,22 @@
-import { ComponentProps } from "react"
+import { ComponentProps } from 'react'
 
-type NavLinkProps = ComponentProps<"a">
+type NavLinkProps = ComponentProps<'a'>
 
 export function NavLink({ children, ...rest }: NavLinkProps) {
   return (
-    <a {...rest}
-      className="h-14 rounded-lg bg-surface-normal flex items-center justify-center w-full text-center px-4 hover:bg-surface-strong border border-stroke hover:border-0.375 hover:border-white cursor-pointer transition-200ms"
+    <a
+      target="_blank"
+      className={`dark:border-stroke-dark dark:bg-surface-dark 
+        border-stroke-light bg-surface-light 
+        hover:bg-surface-hover-light dark:hover:bg-surface-hover-dark flex h-14 w-full 
+        cursor-pointer items-center justify-center gap-2  rounded-lg border 
+        bg-surface-normal  px-4 text-center transition-colors
+        duration-500 hover:border-0.375 hover:border-black
+        dark:hover:border-white
+        `}
+      {...rest}
     >
-      <span className="text-base text-white">
-        {children}
-      </span>
+      <span className="text-base text-black dark:text-white">{children}</span>
     </a>
-
   )
 }
