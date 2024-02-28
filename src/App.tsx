@@ -8,7 +8,7 @@ function App() {
   return (
     <ThemeProvider>
       <div
-        className={` bg-surface-strong flex 
+        className={` flex 
           min-h-screen flex-col items-center 
           justify-center py-0 antialiased background-mb-light-full 
           dark:background-mb-dark-full 
