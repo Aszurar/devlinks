@@ -3,22 +3,24 @@ import './styles/global.css'
 import { NavLink } from './components/NavLink'
 import { Header } from './components/Header'
 import { ThemeProvider } from './context/theme'
+import { axeAccessibilityReporter } from './utils/axeAccessibilityReporter'
+
+axeAccessibilityReporter()
 
 function App() {
   return (
     <ThemeProvider>
       <div
-        className={` flex 
-          min-h-screen flex-col items-center 
-          justify-center bg-[url('/imgs/background-mb-light.png')] bg-cover  
-          bg-center bg-no-repeat py-0
-          antialiased dark:bg-[url('/imgs/background-mb-dark.png')]
+        className={`flex min-h-screen flex-col items-center justify-center 
+          bg-[url('/imgs/background-mb-light.png')] bg-cover bg-center 
+          bg-no-repeat py-0 antialiased 
+          dark:bg-[url('/imgs/background-mb-dark.png')]
           sm:justify-start sm:bg-[url('/imgs/background-light.png')] sm:py-14 
           sm:dark:bg-[url('/imgs/background-dark.png')]`}
       >
         <div
-          className="flex w-full max-w-md flex-col items-center gap-6 p-6 
-          text-white"
+          className={`flex w-full max-w-md flex-col items-center gap-6 p-6 
+          text-white`}
         >
           <Header />
 
