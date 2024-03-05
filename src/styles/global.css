@@ -5,7 +5,7 @@
 
 @layer base {   
   :focus-visible {
-      @apply ring-4 dark:ring-purple-300 ring-purple-200 outline-none
+      @apply ring-2 dark:ring-purple-200 ring-purple-400 outline-none
     }
     
   ::selection {
