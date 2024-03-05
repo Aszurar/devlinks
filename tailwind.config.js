@@ -42,30 +42,6 @@ export default {
           'animation-timing-function': 'cubic-bezier(0.16, 1, 0.3, 1)',
           'will-change': 'transform, opacity',
         },
-        '.background-dark-full': {
-          'background-image': "url('./imgs/background-dark.png')",
-          'background-repeat': 'no-repeat',
-          'background-position': 'top center',
-          'background-size': 'cover',
-        },
-        '.background-light-full': {
-          'background-image': "url('./imgs/background-light.png')",
-          'background-repeat': 'no-repeat',
-          'background-position': 'top center',
-          'background-size': 'cover',
-        },
-        '.background-mb-light-full': {
-          'background-image': "url('./imgs/background-mb-light.png')",
-          'background-repeat': 'no-repeat',
-          'background-position': 'top center',
-          'background-size': 'cover',
-        },
-        '.background-mb-dark-full': {
-          'background-image': "url('./imgs/background-mb-dark.png')",
-          'background-repeat': 'no-repeat',
-          'background-position': 'top center',
-          'background-size': 'cover',
-        },
       })
     }),
   ],

@@ -10,10 +10,11 @@ function App() {
       <div
         className={` flex 
           min-h-screen flex-col items-center 
-          justify-center py-0 antialiased background-mb-light-full 
-          dark:background-mb-dark-full 
-          sm:justify-start sm:py-14 sm:background-light-full 
-          sm:dark:background-dark-full`}
+          justify-center bg-[url('/imgs/background-mb-light.png')] bg-cover  
+          bg-center bg-no-repeat py-0
+          antialiased dark:bg-[url('/imgs/background-mb-dark.png')]
+          sm:justify-start sm:bg-[url('/imgs/background-light.png')] sm:py-14 
+          sm:dark:bg-[url('/imgs/background-dark.png')]`}
       >
         <div
           className="flex w-full max-w-md flex-col items-center gap-6 p-6 
@@ -61,9 +62,11 @@ function App() {
                   Tailwindcss App
                 </NavLink>
                 <NavLink href="https://todo-aszurar.netlify.app">to.do</NavLink>
-                <NavLink href="#">devlinks</NavLink>
-                <NavLink href="https://github.com/Aszurar/WatchMe">
-                  WatchMe
+                <NavLink href="https://lucas-de-lima-ms.netlify.app/">
+                  devlinks
+                </NavLink>
+                <NavLink href="https://github.com/Aszurar/AniList">
+                  AniList
                 </NavLink>
               </section>
             </div>
