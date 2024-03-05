@@ -13,6 +13,8 @@ import LinkedInDarkSVG from '../../assets/icons/socials/linkedIn-dark.svg'
 import InstagramDarkSVG from '../../assets/icons/socials/instagram-dark.svg'
 import FacebookDarkSVG from '../../assets/icons/socials/facebook-dark.svg'
 
+import ProfileIMG from '../../assets/imgs/Lucas.png'
+
 const isSocialsDarkIcons = {
   true: {
     gitHub: GitHubDarkSVG,
@@ -35,13 +37,19 @@ export function Header() {
 
   return (
     <header className="flex flex-col items-center gap-4 text-center">
-      <div className="flex flex-col items-center gap-2 text-center">
-        <img
-          src="https://avatars.githubusercontent.com/u/64987824?v=4"
-          alt="Lucas de Lima"
-          className="border-stroke h-28 w-28 rounded-full border object-cover"
-        />
-
+      <div className="mb-2 flex flex-col items-center gap-2 text-center">
+        <div
+          className={`overflow-hidden rounded-full border border-stroke-light
+             bg-purple-500 pt-0.5
+              dark:border-stroke-dark dark:bg-purple-500
+            `}
+        >
+          <img
+            src={ProfileIMG}
+            alt="Lucas de Lima"
+            className={`h-28 w-28 object-cover object-top`}
+          />
+        </div>
         <div className="flex flex-col gap-1">
           <h1 className="text-base text-black dark:text-white">
             Lucas de Lima
@@ -74,6 +82,8 @@ export function Header() {
         </div>
       </div>
 
+      <Switch />
+
       <nav className="flex gap-4 ">
         <IconButton
           icon={socialsIcons.gitHub}
@@ -97,8 +107,6 @@ export function Header() {
           label="Acessar Instagram"
         />
       </nav>
-
-      <Switch />
     </header>
   )
 }
