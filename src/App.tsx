@@ -60,15 +60,15 @@ function App() {
                 <NavLink href="https://ignite-timer-aszurar.netlify.app">
                   Ignite Timer
                 </NavLink>
+                <NavLink href="https://github.com/Aszurar/AniList">
+                  AniList
+                </NavLink>
                 <NavLink href="https://tailwindcss-app.vercel.app">
                   Tailwindcss App
                 </NavLink>
                 <NavLink href="https://todo-aszurar.netlify.app">to.do</NavLink>
                 <NavLink href="https://lucas-de-lima-ms.netlify.app/">
                   devlinks
-                </NavLink>
-                <NavLink href="https://github.com/Aszurar/AniList">
-                  AniList
                 </NavLink>
               </section>
             </div>
