@@ -19,12 +19,12 @@ function App() {
           sm:dark:bg-[url('/imgs/background-dark.png')]`}
       >
         <div
-          className={`flex w-full max-w-md flex-col items-center gap-6 p-6 
-          text-white`}
+          className={`flex w-full max-w-md flex-col items-center gap-6 p-3 text-white 
+          sm:p-6`}
         >
           <Header />
 
-          <main className="flex w-full flex-1 flex-col items-center gap-1 ">
+          <main className="flex w-full flex-1 flex-col items-center gap-2 sm:gap-4">
             <h2 className="text-lg text-black dark:text-white">
               Projetos desenvolvidos
             </h2>

@@ -40,14 +40,13 @@ export function Header() {
       <div className="mb-2 flex flex-col items-center gap-2 text-center">
         <div
           className={`overflow-hidden rounded-full border border-stroke-light
-             bg-purple-500 pt-0.5
-              dark:border-stroke-dark dark:bg-purple-500
+              dark:border-stroke-dark 
             `}
         >
           <img
             src={ProfileIMG}
             alt="Lucas de Lima"
-            className={`h-28 w-28 object-cover object-top`}
+            className={`h-28 w-28 object-contain`}
           />
         </div>
         <div className="flex flex-col gap-1">
