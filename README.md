@@ -1,7 +1,7 @@
 # #8 - React: **<https://lucas-de-lima-ms.netlify.app>**
 
 <div align="center">
-    <img src="" width="1000" alt="Banner">
+    <img src="https://i.imgur.com/9Xw7jLl.png" width="1000" alt="Banner">
 </div>
 
 ## devlinks | Lucas de Lima
@@ -12,7 +12,7 @@
 - Acesse e teste o projeto em: **<https://lucas-de-lima-ms.netlify.app>**
 
   <div align="center">
-    <h3><a href="">Ignite Timer</a></h3>
+    <h3><a href="https://lucas-de-lima-ms.netlify.app">devlinks</a></h3>
   </div>
 
 <div align="center">
@@ -37,13 +37,7 @@
 ---
 
 <div align="center">
-    <img src="" width="700" alt="Gif mostrando o projeto">
-</div>
-
-<div align="center" >
-
-**[Link do vídeo completo sobre o projeto]()**
-
+    <img src="https://i.imgur.com/Img3aJB.png" width="700" alt="Imagem do projeto">
 </div>
 
 ---
@@ -56,7 +50,7 @@
 - **Tela inicial - tema claro**
 
 <div align="center" >
-      <img src="" width="1000" alt="Tela Inicial">
+      <img src="https://i.imgur.com/Img3aJB.png" width="1000" alt="Tela Inicial">
 </div>
 
 ---
@@ -77,7 +71,7 @@
 - **Tela inicial - tema escuro**
 
 <div align="center" >
-      <img src="" width="1000" alt="Tela Inicial">
+      <img src="https://i.imgur.com/OEKiEH5.png" width="1000" alt="Tela Inicial">
 </div>
 
 ---
@@ -121,7 +115,7 @@
 - **Responsividade**
 
 <div align="center" >
-      <img src="" alt="Tela inicial no modo claro e responsivo" width="280">_<img src="" width="280" alt="Tela de Histórico no modo escuro e responsivo">
+      <img src="https://i.imgur.com/GtNcB4y.png" alt="Tela inicial no modo claro e responsivo" width="280">_<img src="https://i.imgur.com/Jph9Jvi.png" width="280" alt="Tela de Histórico no modo escuro e responsivo">
 </div>
 
 ---
@@ -135,7 +129,7 @@
 - Além disso, podemos customizar o próprio endereço do site, adicionar ferramentas dentre outras funcionalidades facilmente.
 
 <div align="center">
-   <img src="" width="1000" alt="Projeto publicado no Netlify">
+   <img src="https://i.imgur.com/ZpvQhlZ.png" width="1000" alt="Projeto publicado no Netlify">
 </div>
 
 ---
