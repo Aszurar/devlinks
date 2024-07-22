@@ -37,7 +37,7 @@
 ---
 
 <div align="center">
-    <img src="https://i.imgur.com/Img3aJB.png" width="700" alt="Imagem do projeto">
+    <img src="https://i.imgur.com/Img3aJB.png" width="500" alt="Imagem do projeto">
 </div>
 
 ---
