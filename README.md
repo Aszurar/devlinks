@@ -81,9 +81,9 @@
 - O Design do projeto foi fornecido pela **[Rocketseat](https://www.rocketseat.com.br/)** no primeiro módulo do Ignite - React por meio do Figma.
 
 <div align="center">
-  <h3><a href="https://www.figma.com/design/HMRYilUJaaWgEzhWzvVZOa/DevLinks-%E2%80%A2-Projeto-Discover---Copy?m=auto&t=KABSG6cN0DLXTA1c-6">devlinks</a></h3>
+  <h3><a href="https://www.figma.com/design/HMRYilUJaaWgEzhWzvVZOa/DevLinks-%E2%9C%85?node-id=0-1&t=OHgFBfj7q4uq2gKs-0">devlinks</a></h3>
 
-  [![Design](https://i.imgur.com/ddAnKrq.png)](https://www.figma.com/design/HMRYilUJaaWgEzhWzvVZOa/DevLinks-%E2%80%A2-Projeto-Discover---Copy?m=auto&t=KABSG6cN0DLXTA1c-6)
+  [![Design](https://i.imgur.com/ddAnKrq.png)](https://www.figma.com/design/HMRYilUJaaWgEzhWzvVZOa/DevLinks-%E2%9C%85?node-id=0-1&t=OHgFBfj7q4uq2gKs-0)
 </div>
 
 ---
